@@ -1,0 +1,22 @@
+.header-container {
+    width: 100vw;
+    height: 173px;
+    position: absolute;
+    top: 133px;
+}
+.header-container h1 {
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 71px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    text-transform: uppercase;
+    position: absolute;
+    width: 622px;
+    height: 71px;
+    left: 144px;
+    top: 59px;
+}

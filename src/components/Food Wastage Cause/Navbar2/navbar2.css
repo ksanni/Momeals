@@ -1,0 +1,63 @@
+.navbar2-wrapper {
+    width: 100vw;
+    height: 84px;
+    position: absolute;
+    top: 50px;
+    background: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Inter';
+}
+.navbar2-logo {
+    width: 179px;
+    height: 86px;
+    margin-left: 26px;
+    /* margin-top: 48px; */
+}
+.navbar2-list ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 444px;
+    position: absolute;
+    left: 461px;
+    top: 35px;
+}
+.navbar2-list ul li {
+    list-style: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+}
+.navbar2-menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 330px;
+    margin-top: 14px;
+}
+.navbar2-menuBar ul {
+    display: flex;
+    justify-content: space-evenly;
+    width: 120px;
+}
+.navbar2-menuBar ul li {
+    list-style: none;
+    font-size: 18px;
+    line-height: 28px;
+}
+.navbar2-joinBtn button {
+    width: 108px;
+    height: 32px;
+    background: #2EB167;
+    border: none;
+    border-radius: 30px;
+    font-family: 'Arvo';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    margin-right: 33px;
+}
