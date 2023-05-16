@@ -1,5 +1,5 @@
 import React from 'react';
-// import '../RightSide/rightSide.css';
+import '../RightSide/rightSide.css';
 import ShareCause from '../ShareCause/ShareCause';
 
 function RightSide() {

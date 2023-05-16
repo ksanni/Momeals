@@ -1,0 +1,27 @@
+.content2-wrapper{
+    width: 100vw;
+    height: 300px;
+    position: absolute;
+    top: 2591px;
+    background: #ECF5FF;
+}
+.content2-wrapper .content{
+    height: 190px;
+    width: 649px;
+    margin-left: 211px;
+    margin-top: 81px;
+    border-left: 2px solid #0448BC;
+
+}
+.content2-wrapper .content p{
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    display: flex;
+    padding-top: 6px;
+    padding-left: 39px;
+    align-items: center;
+    color: #000000;
+    text-align: justify;
+}
