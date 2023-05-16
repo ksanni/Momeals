@@ -16,3 +16,24 @@
     list-style: none;
     padding-top: 12px;
 }
+
+/* mediaquerry start */
+
+@media (max-width:768px){
+    .share-cause{
+        width: 604px;
+        margin-top: 12px;
+    }
+    .share-cause-Container h3{
+        text-align: center;
+    }
+    .share-cause-list ul {
+        justify-content: space-evenly;
+        margin-top: 12px;
+    }
+}
+@media screen and (min-width: 320px) and (max-width:600px) {
+    .share-cause{
+       width: 676px;
+    }
+}

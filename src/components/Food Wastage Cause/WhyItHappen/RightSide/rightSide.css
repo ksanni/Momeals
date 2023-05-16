@@ -60,3 +60,20 @@
     background: #EEEEEE;
     border-radius: 15px;
 }
+/* mediaquerry start */
+
+
+@media (max-width:768px){
+.recent-donation-details {
+    margin-left: 72px;
+}
+.main-container{
+    height: 710px;
+}
+
+}
+@media screen and (min-width: 320px) and (max-width:600px) {
+    .main-container{
+        margin-left: 102px;
+    }
+}

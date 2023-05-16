@@ -2,11 +2,8 @@
     width: 100vw;
     height: 672px;
     background: #DDECFF;
-    position: absolute;
-    top: 306px;
     display: flex;
     justify-content: space-between;
-    overflow: hidden;
 }
 .section1-para {
     width: 660px;
@@ -39,10 +36,8 @@
 .section2-form {
     width: 385px;
     height: 440px;
-    position: absolute;
-    right: 0;
-    right: 54px;
-    top: 64px;
+    margin-right: 54px;
+    margin-top: 64px;
     border-radius: 9px;
     box-shadow: 1px 23px 24px 12px rgba(0, 0, 0, 0.25);
 }
@@ -118,4 +113,42 @@
     text-align: center;
     color: #ED4B4B;
     border: none;
+    cursor: pointer;
+}
+
+/* mediaquerry start */
+
+@media  ( max-width: 1256px){ 
+    .section1-para {   
+        margin-left: 9px;
+    }
+}
+@media ( max-width: 768px){ 
+  .container-wrapper{
+    height: 1268px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  .section2-form{
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 88px;
+    width: 80%;
+  }
+  .form-part2 p{
+    width: 100%;
+  }
+  .form-part2-input{
+    width: 89%;
+  }
+}
+/* and (max-width:425px) */
+@media screen and (min-width: 320px) and (max-width:600px) {
+    .container-wrapper{
+       
+        width: 881px;
+    }
 }

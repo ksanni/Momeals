@@ -2,9 +2,10 @@
     width: 100vw;
     height: 406px;
     background: #067749;
+    position: relative;
+}
+.container3-wrapper{
     position: absolute;
-    top: 2892px;
-
 }
 .container3-wrapper h1{
     width: 566px;
@@ -21,7 +22,7 @@
 
 .container3-list{
     display: flex;
-    margin-left: 354px;
+    margin-left: 374px;
     margin-top: 48px;
 }
 .container3-list-item{
@@ -49,4 +50,21 @@
     font-size: 45px;
     line-height: 56px;  
     color: #FFFFFF;
+}
+
+/* mediaquerry start */
+
+@media (max-width:768px) {
+    .container3-wrapper h1{
+        margin-left:113px;
+    
+    }
+    .container3-list{
+        margin-left: 64px;
+    }
+}
+@media screen and (min-width: 320px) and (max-width:600px) {
+    .container3-wrapper{
+        width: 875px;
+    }
 }
