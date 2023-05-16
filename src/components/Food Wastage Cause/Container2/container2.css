@@ -1,7 +1,7 @@
 .content2-wrapper{
     width: 100vw;
     height: 300px;
-    margin-top: 208px;
+    margin-top: 43px;
     background: #ECF5FF;
     position: relative;
 
@@ -37,9 +37,13 @@
         left: 54px;
     
     }
+    .content2-wrapper{
+        margin-top:208px ;
+    }
 }
 @media screen and (min-width: 320px) and (max-width:600px) {
     .content2-wrapper{
         width: max-content;
+        margin-top: 208px;
     }
 }
